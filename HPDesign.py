@@ -434,7 +434,7 @@ class MyApp(QMainWindow):
 
                 # all chevyshev numinators are of size 1 in a list
                 
-                HaNUM, HaDEN = substitude(designNum,designDEN,NUM,z)
+                HaNUM, HaDEN = substitude(designNum,designDEN,NUM,DEN)
 
                 ALP_NUM = HaDEN
                 ALP_DEN = np.polyadd(HaDEN,np.polymul(HaNUM,epsalon))
